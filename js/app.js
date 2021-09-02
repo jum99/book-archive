@@ -70,10 +70,10 @@ const displaySearchBooks = books => {
                         <h6 class="card-title"><strong>Book:</strong></h6>
                         <p class="card-text">${book.title ? book.title : 'Not Found'}</p>
                         <h6 class="card-title"><strong>Author:</strong></h6>
-                        <p class="card-text"> ${book.author_name[0] ? book.author_name[0] : 'Not Found'}</p>
+                        <p class="card-text"> ${book.author_name ? book.author_name : 'Not Found'}</p>
                         <h6 class="card-title"><strong>Publisher:</strong></h6>
                         <p class="card-text">
-                            ${book.publisher[0] ? book.publisher[0] : 'Not Found'}
+                            ${book.publisher ? book.publisher : 'Not Found'}
                         </p>
                         <h6 class="card-title"><strong>1st Published:</strong></h6>
                         <p class="card-text">${book.first_publish_year ? book.first_publish_year : ''}</p>
